@@ -9,11 +9,11 @@
 name: Build OpenWrt x86_64
 
 on: 
-  # push: 
-  #   branches:
-  #     - master
+  push: 
+     branches:
+       - master
   schedule:
-    - cron: 0 16 * * 6
+    - cron: 0 12 * * 6
   watch:
     types: started
 
